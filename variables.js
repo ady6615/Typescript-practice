@@ -10,5 +10,4 @@ let Id2 = 1283;
 let Id3 = 460;
 sum = Id2 + Id3;
 console.log(sum);
-
 export {};
