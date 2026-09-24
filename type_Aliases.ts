@@ -4,8 +4,10 @@ type User = {
     isActive:boolean;
 }
 
-function CreateUser (user : User){
+function CreateUser1 (user : User){
 
 }
 
-CreateUser({name:"advait", email:"a.com", isActive:true})
+CreateUser1({name:"advait", email:"a.com", isActive:true})
+
+export{}
