@@ -1,4 +1,4 @@
-//
+//use more than one data type at a time
 //using a union
 
 let score:number | string = 33
@@ -39,8 +39,8 @@ function getDbId(id:number |string){
 
 //array
 
-const data :number[] = [1,2,3,4]
-const data2 :string[] = ["1","2",'3','4']
-const data3 :(string|number|boolean)[] = [1,3,4,5,"1","2",'3','4']
+const data11 :number[] = [1,2,3,4]
+const data12 :string[] = ["1","2",'3','4']
+const data13 :(string|number|boolean)[] = [1,3,4,5,"1","2",'3','4']
 
-
+export{}

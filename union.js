@@ -1,4 +1,3 @@
-"use strict";
 //
 //using a union
 let score = 33;
@@ -21,6 +20,7 @@ function getDbId(id) {
     }
 }
 //array
-const data = [1, 2, 3, 4];
-const data2 = ["1", "2", '3', '4'];
-const data3 = [1, 3, 4, 5, "1", "2", '3', '4'];
+const data11 = [1, 2, 3, 4];
+const data12 = ["1", "2", '3', '4'];
+const data13 = [1, 3, 4, 5, "1", "2", '3', '4'];
+export {};
