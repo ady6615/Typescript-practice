@@ -9,12 +9,18 @@ interface User {
     GetCupon(cuponname: string , value:number): number
 }
 
+//We can reopen the interface and add new variables
+interface User {
+    GetToken : number
+}
+//reopening of interface
+
 const advait : User={
     dbId : 34 , email : "niuf" , userID : 97 , RunTrial(){
         return ""} , 
         GetCupon(cuponname, value) {
             return 9
-        },
+        }, GetToken : 7
     
 }
 
