@@ -10,7 +10,7 @@ abstract class TakePhoto{
 class Instagram implements TakePhoto{
     constructor(public camera:string)
     {
-     super(camera )
+    //  super(camera )
     }
 }
 
